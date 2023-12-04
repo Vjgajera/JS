@@ -1,4 +1,7 @@
 function handleinterest() {
+
+   event.defaultPrevented();
+   
    let p = document.getElementById("PRINCIPAL").value
    
    let r = document.getElementById("RATE").value
@@ -11,5 +14,4 @@ function handleinterest() {
 
    document.getElementById("ans").style.backgroundColor("red");
 
-   return false
 }
